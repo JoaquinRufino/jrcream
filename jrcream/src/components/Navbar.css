@@ -4,11 +4,11 @@
         padding-bottom: 0px;
         margin-bottom: 0px;
         margin-top: 0px;
-        background-image: linear-gradient(#808080,#282a2c,rgb(14, 13, 13));
+        background-image: linear-gradient(#808080,#282a2c);
         top: 0px;
         position: sticky;
         z-index: 8;
-        height: 80px;
+        height: 60px;
 }
 
 .button-navbar{
@@ -22,5 +22,16 @@
 .titulo{
     color: white;
     font-family: 'Rubik Bubbles', cursive;
-    font-size: 28px;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.cartwidget{
+    display: flex;
+}
+
+.cart-icono{
+    width: 36px;
+    height: 36px;
+    align-self: center;
 }
