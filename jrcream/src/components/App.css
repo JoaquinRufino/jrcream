@@ -1,0 +1,68 @@
+
+/*
+.Card_container{
+    height: 500px;
+    background-image: linear-gradient(rgb(26, 22, 22), grey, grey);
+}
+*/
+
+.ropa{
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px 20px
+    rgb(28, 26, 26);
+    transition: all 2s;
+    z-index: 1;
+}
+
+.ropa:hover{
+    width: 35%;
+    height: 85%;
+    border-radius: 15px;
+    transform: scale(1,1);
+    box-shadow: 5px 10px 10px 20px
+    rgb(28, 26, 26);
+
+}
+
+.ropa-1{
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    box-shadow: 5px 10px 10px 20px
+    rgb(28, 26, 26);
+    transition: all 2s;
+    z-index: 2;
+}
+
+.ropa-1:hover{
+    width: 35%;
+    height: 85%;
+    border-radius: 15px;
+    transform: scale(1,1);
+    box-shadow: 5px 10px 10px 20px
+    rgb(28, 26, 26);
+}
+
+
+.ropa2{
+    width: 30%;
+    height: 80%;
+    border-radius: 15px;
+    transition: all 2s;
+    box-shadow: 5px 10px 10px 20px
+    rgb(28, 26, 26);
+
+}
+
+
+.ropa2:hover{
+    width: 35%;
+    height: 85%;
+    border-radius: 15px;
+    transform: scale(1,1);
+    box-shadow: 5px 10px 10px 20px
+    rgb(28, 26, 26);
+                
+}

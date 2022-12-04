@@ -1,0 +1,26 @@
+.Navbar-container{
+    display: flex;
+    justify-content: space-evenly;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        background-image: linear-gradient(#808080,#282a2c,rgb(14, 13, 13));
+        top: 0px;
+        position: sticky;
+        z-index: 8;
+        height: 80px;
+}
+
+.button-navbar{
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.titulo{
+    color: white;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 28px;
+}
