@@ -17,6 +17,9 @@
     font-size: 24px;
     color: white;
     font-family: 'Rubik Bubbles', cursive;
+    text-decoration: none;
+    padding-top: 10px;
+    --bs-link-hover-color: white;
 }
 
 .titulo{
