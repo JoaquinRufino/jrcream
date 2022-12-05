@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
 .Card_container{
     display: flex;
@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-bottom: 0px;
     background-image: linear-gradient(grey, grey, rgb(26, 22, 22));
     padding-bottom: 20px;  
@@ -91,7 +91,7 @@
 
 .ropa:hover{
     width: 35%;
-    height: 85%;
+    height: 88%;
     border-radius: 15px;
     transform: scale(1,1);
     box-shadow: 5px 10px 10px 20px
@@ -111,7 +111,7 @@
 
 .ropa-1:hover{
     width: 35%;
-    height: 90%;
+    height: 92%;
     border-radius: 15px;
     transform: scale(1,1);
     box-shadow: 5px 10px 10px 20px
