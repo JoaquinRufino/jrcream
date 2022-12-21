@@ -1,7 +1,9 @@
-import Card from './Card';
+import { Link } from "react-router-dom";
+
 
 function ItemListContainer (){
     return (
+    
     <div className="Home_container">
         <div className="card-importante">
             <div className="carta">
@@ -21,8 +23,8 @@ function ItemListContainer (){
                 </div>
             </div>
         </div>
-        <Card/>
     </div>
+    
     );
 }
 

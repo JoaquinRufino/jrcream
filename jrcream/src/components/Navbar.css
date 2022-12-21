@@ -16,19 +16,19 @@
 .button-navbar{
     background: none;
     border: none;
-    font-size: 24px;
+    font-size: 26px;
     color: white;
     font-family: 'Rubik Bubbles', cursive;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 12px;
     --bs-link-hover-color: white;
 }
 
 .titulo{
     color: white;
     font-family: 'Rubik Bubbles', cursive;
-    font-size: 28px;
-    margin-top: 12px;
+    font-size: 32px;
+    margin-top: 10px;
 }
 
 .cartwidget{

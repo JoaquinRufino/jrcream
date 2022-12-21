@@ -2,19 +2,19 @@ import './components/App.css';
 import NavBar from './components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import { Link, Route, Routes } from "react-router-dom";
+import productos from './producto.json';
+import Cards from './components/Cards';
+import SelectedCard from './components/SelectedCard';
 
-import producto from './producto.json';
-import Card from './components/Card';
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-      
-      <Routes>
-      <NavBar/>
-      <ItemListContainer/>
-      <Route path="/Card/:CardId" element={<Card />} />
-      </Routes>
+        <NavBar/>
+        <ItemListContainer/>
+        <Routes>
+          <Route path="/" element={<Cards />} />
+          <Route path="comprar/:cardid" element={<SelectedCard productos={productos}/>} />
+        </Routes>
       
     </div>
   );

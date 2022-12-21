@@ -1,31 +1,31 @@
 {
-    "producto":[
+    "productos":[
     {
-        "Id":"1",
+        "id":"1",
         "imagen": "https://res.cloudinary.com/dwbpfsjom/image/upload/v1669847364/fotos/sintitulo-36_k1eduh.png",
         "descripcion": "Nft exclusive Black Edition Ice cream-Hungry 🔥🔥",
         "precio":2800
     },
     {
-        "Id":"2",
+        "id":"2",
         "imagen": "https://res.cloudinary.com/dwbpfsjom/image/upload/v1669847361/fotos/sintitulo-2_denubr.png",
         "descripcion": "Nft exclusive Black Edition Ice cream-Hungry 🔥🔥",
         "precio":3500
     },
     {
-        "Id":"3",
+        "id":"3",
         "imagen":"https://res.cloudinary.com/dwbpfsjom/image/upload/v1669847362/fotos/sintitulo-3_jlxvqg.png" ,
         "descripcion": "Nft exclusive Black Edition Ice cream-Hungry 🔥🔥",
         "precio":4200
     },
     {
-        "Id":"4",
+        "id":"4",
         "imagen": "https://res.cloudinary.com/dwbpfsjom/image/upload/v1669847361/fotos/sintitulo-40_kyovmw.png",
         "descripcion": "Nft exclusive Black Edition Ice cream-Hungry 🔥🔥",
         "precio":2500
     },
     {
-        "Id":"5",
+        "id":"5",
         "imagen":"https://res.cloudinary.com/dwbpfsjom/image/upload/v1669847356/fotos/sintitulo-39_ayfose.png" ,
         "descripcion": "Nft exclusive Black Edition Ice cream-Hungry 🔥🔥",
         "precio":3200
