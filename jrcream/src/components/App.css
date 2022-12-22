@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
 
+
+
+
 .Card_container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-image: linear-gradient(rgb(26, 22, 22), grey, grey);
 }
 
 
@@ -12,7 +14,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
     color: white;
     margin-top: 60px;
     font-size: 26px;
@@ -20,9 +21,10 @@
 
 
 .card-text{
-    padding-top: 50px;
-    margin-top: 40px;
+    padding-top: 40px;
+    margin-top: 0px;
     color: white;
+    margin-bottom: 30px;
 }
 
 .article-ropa1{
@@ -30,7 +32,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 20px;
-    background-image: linear-gradient(rgb(26, 22, 22), grey, grey);
+    background-image: linear-gradient(#5c5a5afd, rgb(33, 33, 33), #5c5a5afd);
     width:auto;
     height:26rem;
     
@@ -78,23 +80,22 @@
 
 
 
-
 .ropa{
     width: 30%;
     height: 80%;
     border-radius: 15px;
-    box-shadow: 5px 10px 10px 20px
+    box-shadow: 0px 10px 10px 10px
     rgb(7, 7, 7);
-    transition: all 2s;
+    transition: all 1.5s;
     z-index: 1;
 }
 
 .ropa:hover{
-    width: 35%;
-    height: 88%;
+    width: 31%;
+    height: 82%;
     border-radius: 15px;
     transform: scale(1,1);
-    box-shadow: 5px 10px 10px 20px
+    box-shadow: 5px 10px 10px 10px
     rgb(7, 7, 7);
 
 }
@@ -103,18 +104,18 @@
     width: 30%;
     height: 85%;
     border-radius: 15px;
-    box-shadow: 5px 10px 10px 20px
+    box-shadow: 0px 10px 10px 10px
     rgb(7, 7, 7);
-    transition: all 2s;
+    transition: all 1.5s;
     z-index: 2;
 }
 
 .ropa-1:hover{
-    width: 35%;
-    height: 92%;
+    width: 31%;
+    height: 86%;
     border-radius: 15px;
     transform: scale(1,1);
-    box-shadow: 5px 10px 10px 20px
+    box-shadow: 5px 10px 10px 10px
     rgb(7, 7, 7);
 }
 
@@ -123,19 +124,19 @@
     width: 30%;
     height: 80%;
     border-radius: 15px;
-    transition: all 2s;
-    box-shadow: 5px 10px 10px 20px
+    transition: all 1.5s;
+    box-shadow: 0px 10px 10px 10px
     rgb(7, 7, 7);
 
 }
 
 
 .ropa2:hover{
-    width: 35%;
-    height: 85%;
+    width: 31%;
+    height: 82%;
     border-radius: 15px;
     transform: scale(1,1);
-    box-shadow: 5px 10px 10px 20px
+    box-shadow: 5px 10px 10px 10px
     rgb(7, 7, 7);
 }
 
@@ -143,7 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgb(26, 22, 22), rgb(23, 22, 22), #1b1717);
+    background-image: linear-gradient(#2b2a2afd, rgb(71, 70, 70), #5c5a5afd);
     
 }
 .carta {
@@ -152,12 +153,12 @@
     background: #454545;
     background: #232323;
     border-radius: 15px;
-    margin-top: 20px;  
-    margin-bottom: 20px;
+    margin-top: 10px;  
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgb(26, 22, 22), rgb(29, 28, 28), #1b1717);
+    background-image: linear-gradient(rgb(19, 19, 19), rgb(29, 28, 28), #161616);
     
   }
   
