@@ -5,8 +5,14 @@ import { Route, Routes } from "react-router-dom";
 import productos from './producto.json';
 import Cards from './components/Cards';
 import SelectedCard from './components/SelectedCard';
+import { useEffect, useState } from 'react';
 
-const App = () => {
+function App() {
+  const [productos, setProductos] = useState([]);
+
+  useEffect (()=> {
+  setProductos([productos.productos]);
+  }, []);
   return (
     <div className="App">
         <NavBar />
@@ -14,7 +20,7 @@ const App = () => {
         <Route path="/" element={<ItemListContainer />} />
         </Routes>
         <Routes>
-          <Route path="/" element={<Cards />} />
+          <Route path="/" element={<Cards productos={productos}/>} />
           <Route path="comprar/:cardid" element={<SelectedCard productos={productos}/>} />
         </Routes>
       
