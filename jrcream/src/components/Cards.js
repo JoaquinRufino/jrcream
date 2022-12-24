@@ -1,5 +1,4 @@
 import './App.css';
-import productos from '../producto.json';
 import Card from './Card';
 
 function Cards ({productos}){
