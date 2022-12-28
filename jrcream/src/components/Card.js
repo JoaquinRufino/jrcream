@@ -9,7 +9,7 @@ const Card = ({productos}) => {
             <p className="card-text">{productos.descripcion} {productos.precio}</p>
             {path === "/" ? (
             <Link to={`comprar/${productos.id}`}>
-            <button id={productos.id} href="#">Ver producto</button>
+            <button id={productos.id} href="#">Ver Producto</button>
             </Link>) : (
                 <button>Comprar</button>
             )}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 function ItemListContainer (){
@@ -14,7 +15,9 @@ function ItemListContainer (){
                             <div className="four">
                                 <div className="five">
                                     <img className="nft-foto text-2" src="https://res.cloudinary.com/dwbpfsjom/image/upload/v1669846393/IMG_9695-2_yjmppu.jpg" alt="foto nft"></img>
-                                    <button className="boton">Comprar</button>
+                                    <Link >
+                                        <button className="boton">Productos</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

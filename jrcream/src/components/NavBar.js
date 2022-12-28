@@ -9,6 +9,9 @@ const NavBar = () => {
         <Link to="/">
         <h2 id='button-navbar'>Inicio</h2>
         </Link>
+        <Link to="/comprar">
+        <h2 id='button-navbar'>Comprar</h2>
+        </Link>
         <CartWidget/>
     </div>;
 };
