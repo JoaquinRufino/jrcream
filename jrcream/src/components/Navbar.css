@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
 
 .Navbar-container{
     display: flex;
@@ -15,19 +17,18 @@
 
 #button-navbar{
     background: none;
-    border: none;
-    font-size: 30px;
+    font-size: 28px;
     color: white;
-    font-family: 'Rubik Bubbles', cursive;
+    font-family: 'Merienda', cursive;
     text-decoration: none;
-    padding-top: 14px;
+    padding-top: 12px;
     text-align: center;
     padding-right: 50px;
     margin-right: 50px;
 }
 
 a{
-    text-decoration: underline 2px;
+    text-decoration: none;
     --bs-link-color: white;
     --bs-link-hover-color: white;
 }
@@ -35,9 +36,9 @@ a{
 
 .titulo{
     color: white;
-    font-family: 'Rubik Bubbles', cursive;
-    font-size: 32px;
-    margin-top: 9px;
+    font-family: 'Inspiration', cursive;
+    font-size: 42px;
+    margin-top: 4px;
     padding-left: 40px;
 }
 
