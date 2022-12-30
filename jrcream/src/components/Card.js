@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
+
 const Card = ({productos}) => {
     const path = useLocation().pathname;
   return (
@@ -7,9 +8,9 @@ const Card = ({productos}) => {
         <img className='ropa' src={productos.imagen}/>
         <div className="div-card">
             <p className="card-text">{productos.descripcion} {productos.precio}</p>
-            {path === "/" ? (
-            <Link to={`comprar/${productos.id}`}>
-            <button id={productos.id} href="#">Ver Producto</button>
+            {path === "/comprar" ? (
+            <Link to={`/comprar/${productos.id}`}>
+            <button id={productos.id} href="#">Ver producto</button>
             </Link>) : (
                 <button>Comprar</button>
             )}
