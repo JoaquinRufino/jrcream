@@ -11,7 +11,7 @@ function Cards (){
             return new Promise ((resolve)=>{
                 setTimeout(()=>{
                     resolve(producto)
-                }, 0);
+                }, 2000);
             })
         }
         useEffect (()=> {

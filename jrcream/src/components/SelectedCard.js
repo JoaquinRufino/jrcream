@@ -10,7 +10,7 @@ const getOneProduct = () => {
 return new Promise ((resolve)=>{
 setTimeout(()=>{
 resolve(producto.productos.find((item)=> item.id === cardid))
-}, 100);
+}, 2000);
 })
 }
 useEffect (()=> {
