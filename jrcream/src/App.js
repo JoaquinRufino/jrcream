@@ -4,7 +4,7 @@ import ItemListContainer from './components/ItemListContainer';
 import { Route, Routes } from "react-router-dom";
 import Cards from './components/Cards';
 import SelectedCard from './components/SelectedCard';
-import { db } from '../db/firebase-config';
+import { db } from './db/firebase-config';
 import {collection, doc, getDocs} from "firebase/firestore";
 
 

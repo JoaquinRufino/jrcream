@@ -1,3 +1,6 @@
+import {addDoc, collection} from "firebase/firestore";
+import {db} from '../db/firebase-config';
+
 const Form = () => {
     const [inputTitle, setInputTitle] = useState('');
     const [inputPrice, setInputPrice] = useState('');
@@ -12,7 +15,14 @@ const createProduct = (e) => {
     const product = {
         title: inputTitle,
         price: inputPrice,
+        description: inputDescription,
+        image: inputImage,
+        category: inputCategory,
     }
+    const productosCollectionRef = collection(db,"productos");
+    addDoc (productosCollectionRef, product).then(({id}) => {
+        console.log("Documento agregado con ID: ",id);
+    });
 };
     
     return (
