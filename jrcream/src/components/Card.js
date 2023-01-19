@@ -13,6 +13,7 @@ const Card = ({productos}) => {
             <button id={productos.id} href="#">Ver producto</button>
             </Link>) : (
                 <button>Comprar</button>
+                
             )}
         </div>
     </div>

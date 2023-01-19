@@ -6,6 +6,7 @@ import Cards from './components/Cards';
 import SelectedCard from './components/SelectedCard';
 import { db } from './db/firebase-config';
 import {collection, doc, getDocs} from "firebase/firestore";
+import { useEffect, useState } from 'react';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
 
   const getProduct = async (id) => {
     const docRef = doc(db, "productos", id);
-    const docSnap = await getDoc(docRef);
+    const docSnap = await getDocs(docRef);
     if (docSnap.exists()) {
       return docSnap.data();
     }else {
@@ -39,7 +40,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
-          <Route path="/comprar" element={<Cards  productos={productos}/>} />
+          <Route path="/comprar" element={<Cards />} />
           <Route path="comprar/:cardid" element={<SelectedCard />} />
         </Routes>
     </div>

@@ -34,7 +34,7 @@ const createProduct = (e) => {
             <input type="text" placeholder="Categoria" value={inputCategory} onChange={(e) => setInputCategory(e.target.value)} />
             <button type="submit">Crear Producto</button>
         </form>
-  )
+)
 }
 
 export default Form;
