@@ -1,9 +1,13 @@
+import React, {useContext} from 'react';
 import { useParams } from "react-router-dom";
 import Card from "./Card";
 import producto from "../producto.json";
 import { useEffect, useState } from "react";
 
+
+
 const SelectedCard = () => {
+
 const {cardid}= useParams()
 const [selectedProduct, setSelectedProduct]= useState({})
 const getOneProduct = () => {
@@ -20,9 +24,9 @@ useEffect (()=> {
   
   return (
   <div>
-  <Card productos={selectedProduct} />
+  <Card productos={selectedProduct}/>
   </div>
   )
-  }
+}
   
   export default SelectedCard;

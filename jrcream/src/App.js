@@ -7,7 +7,8 @@ import SelectedCard from './components/SelectedCard';
 import { db } from './db/firebase-config';
 import {collection, doc, getDocs} from "firebase/firestore";
 import { useEffect, useState } from 'react';
-
+import CartProvider from './components/Context';
+import Cart from './components/Cart';
 
 function App() {
   const productosCollectionRef = collection(db,"productos");
@@ -36,14 +37,17 @@ function App() {
   }, []);
   
   return (
+    <CartProvider>
     <div className="App">
         <NavBar />
         <Routes>
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/comprar" element={<Cards />} />
           <Route path="comprar/:cardid" element={<SelectedCard />} />
+          <Route path="/comprar/cart" element={<Cart />} />
         </Routes>
     </div>
+    </CartProvider>
   );
 }
 

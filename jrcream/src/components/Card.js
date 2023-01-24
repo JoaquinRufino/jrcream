@@ -12,7 +12,9 @@ const Card = ({productos}) => {
             <Link to={`/comprar/${productos.id}`}>
             <button id={productos.id} href="#">Ver producto</button>
             </Link>) : (
+                <Link to={`/comprar/cart`}>
                 <button>Comprar</button>
+                </Link>
                 
             )}
         </div>
